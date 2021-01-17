@@ -1,5 +1,5 @@
 
-
+*{box-sizing: border-box;}
 body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -42,6 +42,31 @@ ul, ol {
     color:#b0cd3b;
 }
 
+/*.............card section About....................*/
+.dana 
+{ float: left;
+	width: 50%;
+	display: flex;
+	
+	text-align: center;
+	
+}
+
+.nico {
+	float: left;
+	width: 50%;
+	display: flex;
+	
+	text-align: center;
+	
+}
+.aboutUs 
+{
+	text-align: center;
+	padding: 25px;
+}
+
+
 
 /* ...................Navigation .......................*/
 .menu {
@@ -54,7 +79,7 @@ ul, ol {
   position: fixed;
   width: 100%;
   z-index: 9999;
-  padding: 7px;
+  padding: 10px;
   -webkit-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
   -moz-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
   box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
@@ -72,22 +97,25 @@ ul, ol {
     
 }
 .navbar-inverse .navbar-nav li a {
-	color: #f7f7f7;
+	color: #ffffff;
 	font-size: 1.1em;
 }
 
 .activ 
 {
-    color: #e53ecc;
+    color: #f386a1;
 }
 
 .navbar-brand img {
-  max-height: 50px;
+  max-height: 100px;
   width: auto;
+  margin-top: -35px;
+  
+
   
 }
 .dropdown-menu {
-	background: #f386a1;
+	background: #000000;
 	border-radius: 0;
 	border: 0;
 }
@@ -95,12 +123,12 @@ ul, ol {
 	padding: 7px;
 }
 .navbar-inverse .navbar-nav .dropdown-menu li a:hover {
-	background:  #f386a1;
+	background:  #000000;
 }
 
 .navbar-inverse
 {
-	background: #f386a1;
+	background:  #000000;
 	border: none;
 	margin: 0;
 }
@@ -109,14 +137,15 @@ ul, ol {
     display: block;
 	font-weight: 100px;
 	font-size: 30px;
-	padding: 10px 0 0 0;
+	padding: 5px 0 0 0;
 	height: 65px;
 	line-height: 40px;
 }
 
 .navbar-inverse .nav li a:hover
 {
-	color: #e53ecc;
+     
+	color: #f386a1;
 }
 
 .navbar-inverse .navbar-toggle
@@ -126,7 +155,7 @@ ul, ol {
 }
 .navbar-inverse .navbar-toggle .icon-bar
 {
-	background: #e53ecc;
+	background: #f386a1;
 	border-color: transparent;
 }
 .navbar-inverse .navbar-toggle:hover,
@@ -262,7 +291,7 @@ ul, ol {
 /* ................Portfolio Section............................... */
 #portfolio {
 	padding: 50px 0;
-    background-color: #f386a1;
+    background-color: #000000;
 	}
 #portfolio h2 {
 	color: white;
@@ -391,7 +420,13 @@ ul.cat li {
 	padding: 5px;
 	color: #E87E04;
 }
-
+/*.........................About Section...............................*/
+#about
+{
+	background: #303030 ;
+	color: #eee;
+	padding-top: 80px 0 80px;
+}
 /* .......................Contact Section............................. */
 
 #contact
@@ -442,12 +477,12 @@ ul.cat li {
 }
 #contact .fa
 {
-	color: #80cd32;
+	color: yellowgreen;
 	font-size: 20px;
 	padding: 6px 10px 6px 0;
 }
 
-#contact a {	color: #80cd32; }
+#contact a {	color: #f386a1; }
 a:hover, a:active 
 {
 	color:#80cd32;
@@ -550,7 +585,7 @@ a:hover, a:active
     background: #303030;
     padding: 0 25px;
 }
-}
+
 /* ....................................... 680 media quires.................... */
 
 @media only screen and ( max-width: 680px ) {
